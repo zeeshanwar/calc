@@ -37,7 +37,6 @@ let fullresult = document.querySelector('#fullresult');
 // console.log(resultcontainer);
 // console.log(result);
 
-
 // number.value = 20;
 
 // number.addEventListener('change', numbercheck);
