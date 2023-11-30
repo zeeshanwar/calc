@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <title>
+          Temperature Converter
+     </title>
+
+
+     <script src="script.js" defer></script>
+
+     <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+     <div class="bodycontainer">
+
+
+          <div class="heading">
+               <h1>Calculator</h1>
+          </div>
+
+
+          <div class="pagebody">
+
+
+               <div class="container">
+
+
+                    <form id="converterform" onsubmit="return false">
+
+
+                         <div class="tempinputarea">
+
+                              <div class="number2">
+                                   <input class="tempinputbox number" id="num1" autocomplete="off" title="Enter the Temperature without any Unit" required>
+                                   <div class="temptitle" id="toptitle">
+                                        Number 1
+                                   </div>
+                              </div>
+
+                              <div class="number2">
+                                   <input class="tempinputbox number" id="num2" autocomplete="off" title="Enter the Temperature without any Unit" required>
+                                   <div class="temptitle" id="toptitle">
+                                        Number 2
+                                   </div>
+                              </div>
+                              <br>
+
+                              <div class="tempunit">
+
+                                   <div class="tempunitbox" id="tempfrom">
+                                        <div class="temptitle">
+
+                                        </div>
+                                        <div class="unitbox">
+
+                                             <div class="unitoptions">
+                                                  <input type="radio" name="tempreature-unit-input" id="add"
+                                                       class="tempradio radioinput" value="°C"> Addition &nbsp;
+                                             </div>
+
+                                             <div class="unitoptions">
+                                                  <input type="radio" name="tempreature-unit-input" id="sub"
+                                                       class="tempradio radioinput" value="°F"> Subtraction &nbsp;
+                                             </div>
+
+                                             <div class="unitoptions">
+                                                  <input type="radio" name="tempreature-unit-input" id="mod"
+                                                       class="tempradio radioinput" value="K"> Modulo &nbsp;
+                                             </div>
+
+                                             <div class="unitoptions">
+                                                  <input type="radio" name="tempreature-unit-input" id="div"
+                                                       class="tempradio radioinput" value="K"> Division &nbsp;
+                                             </div>
+
+                                             <div class="unitoptions">
+                                                  <input type="radio" name="tempreature-unit-input" id="mul"
+                                                       class="tempradio radioinput" value="K"> Multiplication &nbsp;
+                                             </div>
+
+                                             
+
+
+                                        </div>
+                                   </div>
+
+                                   <!-- <div class="tempunitbox" id="tempto">
+                                        <div class="temptitle">
+                                             To
+                                        </div>
+                                        <div class="unitbox">
+                                             <div class="unitoptions">
+                                                  <input type="radio" name="tempreature-unit-output" id="outputcelcius"
+                                                       class="tempradio radiooutput" value="Celcius"> Celcius &nbsp;
+                                             </div>
+                                             <div class="unitoptions">
+                                                  <input type="radio" name="tempreature-unit-output" id="outputfarenheit"
+                                                       class="tempradio radiooutput" value="Farenheit"> Farenheit &nbsp;
+                                             </div>
+                                             <div class="unitoptions">
+                                                  <input type="radio" name="tempreature-unit-output" id="outputkelvin"
+                                                       class="tempradio radiooutput" value="Kelvin"> Kelvin &nbsp;
+                                             </div>
+                                        </div>
+                                   </div> -->
+
+                              </div>
+
+                         </div>
+
+
+                         <div class="calltoaction">
+                              <button class="submitbtn" id="submit"> Calculate </button>
+                         </div>
+
+
+                         <div class="resultcontainer">
+
+                              <input class="tempinputbox" id="result" placeholder="Result" readonly>
+                              <!-- <input class="tempinputbox" id="resultunit" placeholder="Unit" readonly> -->
+                                 
+                         </div>
+                         
+                         <input class="tempinputbox" id="fullresult" readonly>
+
+
+                         <div class="resetarea">
+
+                              <button type="reset" class="resetbtn" id="reset"> Reset </button>
+
+                         </div>
+
+
+                    </form>
+
+
+               </div>
+
+
+          </div>
+
+     </div>
+
+</body>
+
+</html>
