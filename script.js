@@ -15,12 +15,6 @@ let division = document.getElementById('div');
 
 let multiplication = document.getElementById('mul');
 
-// let outputcelcius = document.getElementById('outputcelcius');
-
-// let outputfarenheit = document.getElementById('outputfarenheit');
-
-// let outputkelvin = document.getElementById('outputkelvin');
-
 let submit = document.getElementById('submit');
 
 let resultcontainer = document.querySelector('.resultcontainer');
@@ -34,16 +28,10 @@ let reset = document.getElementById('reset');
 let fullresult = document.querySelector('#fullresult');
 
 
-console.log(number);
+//console.log(number);
 //console.log(num1);
 //console.log(num2);
 // console.log(radioinput);
-// console.log(inputcelcius);
-// console.log(inputfarenheit);
-// console.log(inputkelvin);
-// console.log(outputcelcius);
-// console.log(outputfarenheit);
-// console.log(outputkelvin);
 // console.log(submit);
 // console.log(reset);
 // console.log(resultcontainer);
@@ -52,7 +40,7 @@ console.log(number);
 
 // number.value = 20;
 
-// number.addEventListener('change', numbercheck)
+// number.addEventListener('change', numbercheck);
 
 function inputcheck(){
 
@@ -107,28 +95,21 @@ function inputcheck(){
 
 
      // function unitcheck(){
-
      //      for (let rbtn of radioinput) {
-
      //           if(rbtn.checked == true){
-
-     //                inputuint = rbtn.value;
-                    
+     //                inputuint = rbtn.value; 
      //                console.log(inputuint);
      //           }
-               
      //      }
      // }
 
 
      // function sameunits(){
-
      //      alert("Same Units Selected. Please select different units and try again");
      //      resetform();
      //      // tempresult = temperature;
      //      // convertedunit = inputuint;
      //      // tempresult = 0;
-
      // }
 
 
@@ -170,10 +151,6 @@ submit.addEventListener('click', () => {
      let num1 = parseInt(document.getElementById('num1').value);
 
      let num2 = parseInt(document.getElementById('num2').value);
-
-     // let tempresult = 0;
-
-     
 
      inputcheck();
 
@@ -217,57 +194,10 @@ submit.addEventListener('click', () => {
 
      console.log(tempresult);
 
-     
-
-     
-     // if ( 
-     //      additiion.checked == true  &&  outputcelcius.checked == true ||
-     //      inputfarenheit.checked == true  &&  outputfarenheit.checked == true ||
-     //      inputkelvin.checked == true  &&  outputkelvin.checked == true
-     // )    {
-     //           sameunits();
-     //           // alert('same units selected');
-     //      }
-
-     // else if (inputcelcius.checked == true  &&  outputfarenheit.checked == true) {
-     //      console.log("celcius to farenhiet");
-     //      c2f();
-     // }
-     
-     // else if (inputcelcius.checked == true  &&  outputkelvin.checked == true) {
-     //      console.log("celcius to kelvin");
-     //      c2k();
-          
-     // }
-     
-     // else if(inputfarenheit.checked == true  &&  outputcelcius.checked == true){
-     //      console.log("farenhiet to celcius");
-     //      f2c();
-     // }
-     
-     // else if(inputfarenheit.checked == true  &&  outputkelvin.checked == true){
-     //      console.log("farenhiet to kelvin");
-     //      f2k();
-     // }
-     
-     // else if (inputkelvin.checked == true  &&  outputfarenheit.checked == true) {
-     //      console.log("kelvin to farenhiet");
-     //      k2f();
-     // }
-     
-     // else if (inputkelvin.checked == true  &&  outputcelcius.checked == true) {
-     //      console.log("kelvin to celcius");
-     //      k2c();
-     // }
-     
-     // else {
-     //      alert("Please select the Units");
-     //      result.reset();
-     // }
-
 
      result.value = tempresult;
      
+
 
      function add() {
      
